@@ -7,7 +7,7 @@ class Home{
 
 	public function index(){
 		$smarty = new Smarty();
-		$smarty->assign("titulo" , "CCR DESENHOS");
+		$smarty->assign("titulo" , "Painel de Controle Nova Face");
 		$smarty->assign("HTTP" , HTTP);
 		
 		// if(@$_SESSION['login']){

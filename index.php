@@ -18,7 +18,7 @@ header('Content-Type: text/html; charset=utf-8');
 	if ( class_exists($classe) ) {
 		$objeto = new $classe();
 	} else {
-		$objeto = new Busca();	
+		$objeto = new Home();	
 	}
 	
 	$metodo = isset($parametros['metodo']) ? $parametros['metodo'] : 'index';
