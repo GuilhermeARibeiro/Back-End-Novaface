@@ -25,9 +25,7 @@ header('Content-Type: text/html; charset=utf-8');
 	
 	if ( !method_exists( $objeto, $metodo ) && !is_callable( array($objeto, $metodo) ) ) {
 		$metodo = 'index';			
-	} 
-	
-
+	}
 	
 	$objeto->$metodo();
 	
